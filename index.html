@@ -1,167 +1,33 @@
+<!Doctype html>
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="u tf-8">
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-    <title>A basic Web-page</title>
-    <style media="screen">
-      .container{
-        width: 90%;
+<head>
+	<style>
+   body{
 
-      }
-      .myName,{
-        font-size: 50px;
-        text-align: center;
-        padding: 100px 0;
-      }
-      .cityPic img, .pic img{
-        width: 100%;
-        float:left;
-        text-align: center;
-        padding: 30px 0;
-      }
+   	text-align: center;
+   	margin-top: 100px;
+    }
 
-      .place img{
-        float:left;
-      }
+   input {
+   	width:150px;
+   	color: black;
+   	height: 50px;
+   }
 
-      .cityDfn{
-        text-align: justify;
-        float:left;
-      }
+	</style>
+</head>
+<body>
 
-      @media (min-width: 520px) {
-        .container{
-          width: 90%;
-          margin: 50px;
-        }
-          .numberOne, .numberTwo{
-            width: 100%;
-            display: inline-flex;
-          }
-          .myName{
-            padding-left: 10px;
-            width: 40%
-          }
-          .otext{
-            padding: 70px 0;
-            width:50%
-          }
-          .pic{
-            width: 50%;
-            float: left;
-          }
-          .cityPic{
-            width:35%;
-          }
-          .place{
-            height: auto;
-            margin-left: 20px;
-            padding: 10px 0;
-            float: left;
-            width:30%;
-          }
-          .place img {
-            margin-right: 1rem;
-          }
-          th,
-          td {
-            padding: 12px 15px;
-            text-align: left;
-            border-bottom: 1px solid #E1E1E1; }
-}
-
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="numberOne">
-        <div class="otext">
-          <h1 style="text-align: center;">Banele Ngwane</h1>
-        </div>
-        <div class="pic">
-          <img class="u-max-full-width" sytle="width:100%; text-align: center;" src="images/ngwane.jpg" title="Banele Ngwane" width="250" height="250"/>
-        </div>
-      </div>
-      <hr />
-
-      <div class="numberTwo">
-        <div class="cityPic">
-          <h2 style="text-align: center;">Which City</h2>
-          <img class="u-max-full-width" style="width=100%; text-align: center;" src="images/london.jpg" alt="london city" width="250" height="250"/>
-        </div>
-        <div class="cityDfn">
-          <h5> LONDON </h5>
-          <p>
-          London, the capital of England and the United Kingdom, <br />is a 21st-century city with history stretching back to Roman times.<br /> At its centre stand the imposing Houses of Parliament,<br /> the iconic ‘Big Ben’ clock tower and Westminster Abbey,<br /> site of British monarch coronations. Across the Thames River,<br /> the London Eye observation wheel provides panoramic views of the<br /> South Bank cultural complex, and the entire city.
-          </p>
-        </div>
-      </div>
-
-      <hr />
-
-      <div style="width: 100%; overflow: hidden;" class="language">
-        <h2>A foreign Language</h2>
-        <p><b>German</b></p>
-        <table class="table">
-          <tr>
-            <th scope="col">English phrases</th>
-            <th scope="col">German phrases</th>
-          </tr>
-          <tr>
-            <td>Hello, How are you?</td>
-            <td>Hallo, wie geht's dir?</td>
-          </tr>
-          <tr>
-            <td>Hello, How are you?</td>
-            <td>Hallo, wie geht's dir?</td>
-          </tr>
-          <tr>
-            <td>Hello, How are you?</td>
-            <td>Hallo, wie geht's dir?</td>
-          </tr>
-        </table>
-      </div>
-
-      <hr />
-
-      <div style="width: 100%; overflow: hidden;" class="numbreThree">
-        <h2>These are my historic places</h2>
-        <div class="place">
-          <h3>District Six</h3>
-            <img class="u-max-full-width" src="images/districtSix.jpg" alt="District Six"
-            width="150" height="150" />
-            <p>On the 11 Feb 1966, District Six was declared a White area under the 1950 Group Areas Act of the Apartheid government
-              In 1970 District six was renamed Zonnebloem, a name that makes reference to an 18th century colonial farm
-              The district was established as a community of freed slaves, merchants, artisans, labourers and immigrants
-            </p>
-        </div>
-
-        <div class="place">
-            <h3>City Hall</h3>
-            <img class="hPic" src="images/theCityHall.jpg" alt="The City Hall"
-            width="150" height="150" />
-            <p>The City Hall is a large Edwardian building in Cape Town city centre which was built in 1905.
-              It is located on the Grand Parade to the west of the Castle and is built from honey-coloured oolitic limestone imported from Bath in England.
-              On 11 Feb, 1990. The late President, Mr  Nelson Mandela made his first public speech after his release from the balcony of Cape Town City Hall.
-            </p>
-          </div>
-
-        <div class="place">
-          <h3>Iziko Museum</h3>
-          <img class="izikoPic" src="images/IzikoMuseum.jpg" alt="Iziko Museum"
-            width="150" height="150" />
-          <p>In 1897 the Museum moved to its present building in the historic Company's Garden
-              The Museum was founded in 1825, was known as the South African Museum, the first in the country
-              The museum houses more than one and a half million specimens of scientific importance, including 700 million year old fossils
-            </p>
-        </div>
-      </div>
-    </div>
-    <hr />
+<h1></h1>
+<input type="button" value="Basic Webpage"
+onclick="window.location.href='basic.html'" />
+<!--<button type="index.html" value="index.html">index.html</button>
+-->
+<input type="button" value="Skeleton webpage"
+onclick="window.location.href='skeleton.html'" />
 
 
-  <hr />
-  </body>
+
+</body>
 </html>
