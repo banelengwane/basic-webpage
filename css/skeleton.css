@@ -21,6 +21,14 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*my own css */
+.place{
+	height: auto;
+	margin-left: 20px;
+	padding: 10px 0;
+	float: left;
+	width:30%;
+}
+
 body{
 	color: white;
 	background:
@@ -34,7 +42,7 @@ linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b128
 background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
 background-color: #840b2a;
 }
-.table{
+table{
 	width: 100%;
 }
 @media (max-width: 500px) {
