@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width" />
     <title>A basic Web-page</title>
     <style media="screen">
+      img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
       .container{
         width: 90%;
 
@@ -27,6 +31,9 @@
       }
 
       .cityDfn{
+        margin-left: 30px;
+        padding: 70px 0;
+        width: auto;
         text-align: justify;
         float:left;
       }
@@ -49,7 +56,7 @@
             width:50%
           }
           .pic{
-            width: 50%;
+            width: 30%;
             float: left;
           }
           .cityPic{
@@ -81,7 +88,7 @@
           <h1 style="text-align: center;">Banele Ngwane</h1>
         </div>
         <div class="pic">
-          <img class="u-max-full-width" sytle="width:100%; text-align: center;" src="images/ngwane.jpg" title="Banele Ngwane" width="250" height="250"/>
+          <img class="u-max-full-width" sytle="width:100%; text-align: center;" src="images/ngwane.jpg" title="Banele Ngwane" width="200" height="200"/>
         </div>
       </div>
       <hr />
@@ -89,10 +96,10 @@
       <div class="numberTwo">
         <div class="cityPic">
           <h2 style="text-align: center;">Which City</h2>
-          <img class="u-max-full-width" style="width=100%; text-align: center;" src="images/london.jpg" alt="london city" width="250" height="250"/>
+          <img class="u-max-full-width" style="width=90%; text-align: center;" src="images/london.jpg" alt="london city" width="200" height="200"/>
         </div>
-        <div class="cityDfn">
-          <h5> LONDON </h5>
+        <div class="cityDfn" style="width: 50%">
+          <h3>LONDON</h3>
           <p>
           London, the capital of England and the United Kingdom, <br />is a 21st-century city with history stretching back to Roman times.<br /> At its centre stand the imposing Houses of Parliament,<br /> the iconic ‘Big Ben’ clock tower and Westminster Abbey,<br /> site of British monarch coronations. Across the Thames River,<br /> the London Eye observation wheel provides panoramic views of the<br /> South Bank cultural complex, and the entire city.
           </p>
